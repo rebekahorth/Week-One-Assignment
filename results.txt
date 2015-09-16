@@ -1,8 +1,13 @@
+#Chaos.py Results file
+#Rebekah Orth
+#CIS 125 Fall 2015
+
+
 Results
+
 I found out cool things.
 
-Run with .25
-
+Run with .25 and multiplier 3.9 with loop 10
 0.73125                                                                                                                                                          
 0.76644140625                                                                                                                                                    
 0.6981350104385375                                                                                                                                               
@@ -15,8 +20,7 @@ Run with .25
 0.11850901017563877  
 
 
-Run with .26
-
+Run with .26 and multiplier 3.9 with loop 10
 0.75036                                                                                                                                                          
 0.73054749456                                                                                                                                                    
 0.7677066257332165                                                                                                                                               
@@ -27,3 +31,82 @@ Run with .26
 0.14744687593470315                                                                                                                                              
 0.49025454937601765                                                                                                                                              
 0.9746296021493285 
+
+Run with .25 and multiplier 2.0 with loop 10
+0.375                                                                                
+0.46875                                                                              
+0.498046875                                                                          
+0.49999237060546875                                                                  
+0.4999999998835847                                                                   
+0.5                                                                                  
+0.5                                                                                  
+0.5                                                                                  
+0.5                                                                                  
+0.5                                                                                                                                              
+
+Run with .26 and multiplier 2.0 with loop 10
+0.38480000000000003                                                                  
+0.47345792000000003                                                                  
+0.49859103597854726                                                                  
+0.4999960296407725                                                                   
+0.4999999999684725                                                                   
+0.49999999999999994                                                                  
+0.49999999999999994                                                                  
+0.49999999999999994                                                                  
+0.49999999999999994                                                                  
+0.49999999999999994 
+
+When looking at the difference between using the multiplier of 2.0 or 3.9, it appears that the multiplier of 2.0 comes to a limit much quicker and allows the user to see the value that is being approached.  When using the multiplier of 3.9 there is not a limit reached and the numbers bounce throughout the whole list.
+
+
+Run with .25 and multiplier 2.0 with loop 20
+0.375
+0.46875
+0.498046875
+0.49999237060546875
+0.4999999998835847
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+0.5
+
+Run with .26 with multiplier 2.0 with loop 20
+0.38480000000000003
+0.47345792000000003
+0.49859103597854726
+0.4999960296407725
+0.4999999999684725
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+0.49999999999999994
+
+The values when I am running loop 10 are more jumpy than when I ran with loop 20.  Using loop 20 allowed the program to get closer and closer and eventually appear to be the same value when looking at how many times the code is given.  The larger the loop number is the more quickly the value that was the end was found.
+
+
+
+
+
+
